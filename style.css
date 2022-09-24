@@ -70,6 +70,7 @@ h3 span {
 .name {
     color: var(--darker-blue);
     padding-right: 4px;
+
 }
 
 .name, .post {
@@ -106,6 +107,10 @@ p {
     color: var(--dk-gray-blue);
 }
 
+.message:hover {
+    background-color: var(--lt-gray-blue-2);
+}
+
 .relative {
     position: relative;
 }
@@ -119,6 +124,10 @@ p {
 
 .pic-text {
     width: 200px;
+}
+
+.mark, .name, .post, .club, .message, .pic-text {
+    cursor: pointer;
 }
 
 .attribution { 
