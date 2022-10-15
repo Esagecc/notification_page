@@ -52,6 +52,7 @@ h3 {
     padding: 15px;
     display: flex;
     margin-bottom: 10px;
+    background-color:var(--white);
 }
 
 .unread {
@@ -87,6 +88,8 @@ p {
     padding-left: 5px;
     position: absolute;
     line-height: 12px;
+    display:inline;
+
 }
 
 .time {
